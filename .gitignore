@@ -1,0 +1,32 @@
+# Secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Large raw data and model files
+data/raw/
+data/zhao_nonmetal_oxide_bandgap_project.csv
+data/zhao_nonmetal_oxide_bandgap_magpie_project.csv
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# IDE settings
+.vscode/
+.idea/
+notebooks/*_backup.ipynb
